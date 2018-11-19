@@ -6,41 +6,24 @@
 </head>
 
 <body>
-    <audio
-        id="lionsound"
-        autoplay
-        src="Lyd/lion.mp3">
-        Your browser does not support the <code>audio</code> element.
-    </audio>
-    <div id="tbane-system">
-        <div id="navigasjon">
-            <div id="linje"></div>
-            <div class="stopp" id="stopp1">
-                <a href="#">Majorstuen</a>
-            </div>
-
-            <div class="stopp" id="stopp2">
-                <a href="#">Jernbanetorget</a>
-            </div>
-
-            <div class="stopp" id="stopp3">
-                <a href="#">Grønland</a>
-            </div>
-
-            <div class="stopp" id="stopp4">
-                <a href="#">Majorstuen</a>
-            </div>
-
-            <div class="stopp" id="stopp5">
-                <a href="#">Majorstuen</a>
-            </div>
-
-            <div class="stopp" id="stopp6">
-                <a href="#">Majorstuen</a>
-            </div>
-        </div>
-        <div id="tbaneogskinner">
-            <div id="skinner-bakgrunn">
+    <!-- T-bane med navigasjon på toppen -->
+    <div id="wrapper">
+        
+        <!-- T-banen og skinnene -->
+        <div id="tbaneOgSkinner">
+            
+            <!-- Skinnen i bakgrunnen med treværket -->
+            <div id="skinneBakgrunn">
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
                 <div class="trevaerk"></div>
                 <div class="trevaerk"></div>
                 <div class="trevaerk"></div>
@@ -59,21 +42,40 @@
                 <div class="trevaerk"></div>
                 <div class="trevaerk"></div>
             </div>
+            
+            <!-- Hele T-banen -->
             <div id="tbane">
-                <div id="bakgrunn">
-                    <div class="vindu"></div>
-                    <div class="vindu"></div>
-                    <div class="vindu"></div>
+                
+                <!-- Vognen -->
+                <div id="vogn">
+                    
+                    <div id="tbaneSplit"></div>
+                    
+                    <!-- vinduene -->
+                    <div id="vinduer">
+                        <div class="vindu"></div>
+                        <div class="vindu"></div>
+                    </div>
+                    
+                    <!-- Rust -->
+                    <div class="vognRust" id="oppeTilVenstre"></div>
+                    <div class="vognRust"></div>
+                    <div class="vognRust"></div>
+                    
                 </div>
 
+                <!-- Hjulene på T-banen -->
                 <div id="hjulene">
-                    <div class="hjul"></div>
-                    <div class="hjul"></div>
-                    <div class="hjul"></div>
-                    <div class="hjul"></div>
+                    
+                    <!-- Hjulene -->
+                    <img src="tbaneAsset/wheel.png" class="hjul">
+                    <img src="tbaneAsset/wheel.png" class="hjul">
+                    <img src="tbaneAsset/wheel.png" class="hjul">
                 </div>
             </div>
-            <div id="skinner-forgrunn"></div>
+            
+            <!-- Skinnene i forgrunnen -->
+            <div id="SkinneForgrunn"></div>
         </div>
     </div>
 </body>
