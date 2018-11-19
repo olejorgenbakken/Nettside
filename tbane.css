@@ -49,6 +49,7 @@
     background-color: slategrey;
     bottom: 0;
     border-radius: 0 0 10px 10px;
+    z-index: 1;
 }
 
 #vogn #vinduer {
@@ -57,6 +58,7 @@
     height: 120px;
     margin: auto;
     text-align: center;
+    z-index: 2;
 }
 
 #vogn .vindu {
