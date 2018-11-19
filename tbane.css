@@ -5,7 +5,7 @@
 
 #wrapper {
     position: relative;
-    width: 1240px;
+    width: 1024px;
     height: 768px;
     background-color: whitesmoke;
     overflow: hidden;
@@ -16,7 +16,7 @@
 }
 
 #tbaneOgSkinner {
-    width: 1240px;
+    width: 1024px;
     height: 244px;
     background-color: transparent;
     bottom: 0;
