@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+}
+
+#scene {
+    position: relative;
+}
+
+#fyr {
+    position: absolute !important;
+    height: 150px;
+}
+
+
+
