@@ -4,6 +4,7 @@ body {
     background-color: blue;
 }
 
+/* Wrapper for hele html-en */
 #dyrehageWrapper {
     position: relative;
     width: 1024px;
@@ -13,6 +14,7 @@ body {
     margin: auto;
 }
 
+/* Lianer */
 .liane50px {
     width: 3px;
     height: 50px;
@@ -106,7 +108,7 @@ body {
 #liane6 {
     position: absolute;
     left: 400px;
-    filter: blur(3px);
+    filter: blur(1px);
 }
 #liane7 {
     position: absolute;
@@ -151,6 +153,7 @@ body {
     left: 980px;
 }
 
+/* Wrapper for alle omgivelser */
 #omgivelser {
     z-index: 0;
     width: 100%;
@@ -172,6 +175,7 @@ body {
     filter: blur(5px);
 }
 
+/* Trær */
 .dyrehageTre {
     height: 330px;
     width: 180px;
@@ -216,6 +220,7 @@ body {
     border-radius: 50% 50% 0 0;
 }
 
+/* Alle elementene som inngår i dyrene */
 .oye {
     height: 100%;
     background-color: black;
@@ -227,6 +232,7 @@ body {
     border-radius: 50%;
 }
 
+/* Apene */
 .ape {
     position: absolute;
     background-color: maroon;
@@ -263,6 +269,7 @@ body {
     left: 1px;
 }
 
+/* Plassering av aper */
 #apekatt1 {
     left: 90px;
     top: 80px;
@@ -273,6 +280,7 @@ body {
     transform: rotate(180deg);
 }
 
+/* Plassering og animering av trær og aper */
 #tre1 {
     left: 130px;
     bottom: 60;
@@ -312,6 +320,7 @@ body {
     }
 }
 
+/* Lys gjennom taket */
 .hullITaket {
     position: absolute;
     width: 145px;
@@ -336,6 +345,7 @@ body {
     opacity: 1;
 }
 
+/* Stilsetting av snakkebobler */
 .snakker {
     position: relative;
     top: -70;
@@ -372,6 +382,7 @@ body {
     list-style: decimal;
 }
 
+/* Dyrene */
 #dyrehagen {
     position: absolute;
     height: 100%;
@@ -380,6 +391,7 @@ body {
     z-index: 2;
 }
 
+/* Løvene */
 .love {
     width: 250px;
     height: 170px;
@@ -458,7 +470,6 @@ body {
         top: -180px;
     }
 }
-
 
 .loveManogHode {
     height: 100px;
@@ -569,6 +580,7 @@ body {
     margin-left: 10px;
 }
 
+/* Skillpaddene */
 .skillpadde {
     width: 160px;
     height: 88px;
@@ -706,7 +718,6 @@ body {
 #skillpadde1 .snakker {
     animation: snakk 2s linear forwards .2s;
 }
-
 @keyframes snakk {
     0% {
         opacity: 0;
@@ -726,6 +737,7 @@ body {
     }
 }
 
+/* Giraff */
 .giraff {
     height: 400px;
     width: 280px;
@@ -908,6 +920,7 @@ body {
     }
 }
 
+/* Dovendyr */
 .dovendyr {
     height: 200px;
     width: 100px;
@@ -1013,6 +1026,7 @@ body {
     }
 }
 
+/* T-banen */
 #tbaneWrapper {
     position: static;
     bottom: 0;
