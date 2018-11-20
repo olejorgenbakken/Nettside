@@ -4,12 +4,47 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="https://cdn0.iconfinder.com/data/icons/joker-circus-by-joker2011-d3g8h6s/256/lion.png" type="image/x-icon" />
     <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
     <link href="dyrehage.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
 
+    <iframe src="bakgrunnsmusikk.mp3" autoplay loop></iframe>
+    
     <div id="dyrehageWrapper">
+        <section id="navigasjon">
+        
+            <article class="stopp">
+                <input type="radio" id="stopp1" name="stopp" value="stopp1">
+                <label for="stopp1"><p>Majorstuen</p></label>
+            </article>
+            
+            <article class="stopp">
+                <input type="radio" id="stopp2" name="stopp" value="stopp2">
+                <label for="stopp2"><p>Jernbanetorget</p></label>
+            </article>
+            
+            <article class="stopp">
+                <input type="radio" id="stopp3" name="stopp" value="stopp3">
+                <label for="stopp3"><p>Stopp 3</p></label>
+            </article>
+            
+            <article class="stopp">
+                <input type="radio" id="stopp4" name="stopp" value="stopp4" checked>
+                <label for="stopp4"><p>Dyrehagen</p></label>
+            </article>
+            
+            <article class="stopp">
+                <input type="radio" id="stopp5" name="stopp" value="stopp5">
+                <label for="stopp5"><p>Stopp 5</p></label>
+            </article>
+                
+            <article class="stopp">
+                <input type="radio" id="stopp6" name="stopp" value="stopp6">
+                <label for="stopp6"><p>Stopp 6</p></label>
+            </article>
+        </section>
         
         <!-- T-bane -->
         <div id="tbaneWrapper">
@@ -915,31 +950,6 @@
             <!-- Giraff -->
             <div class="giraff" id="giraff1">
 
-                <!-- Snakkeboble med tekst -->
-                <div class="snakker">
-
-                    <div class="snakkebobleTrekant"></div>
-
-                    <div class="snakkeboble">
-
-                        <p class="snakkebobleTekst">
-                            Grunner til å bli i dyrehagen:
-                        </p>
-
-                        <ul>
-                            <li>Dyrene er her</li>
-                            <li>Dyrene er ikke andre steder</li>
-                            <li>Se punkt 1 og 2</li>
-                        </ul>
-
-                        <p class="snakkebobleTekst">
-                            Så, som du sikkert forstår er det ikke mye å klage over her.
-                        </p>
-
-                    </div>
-
-                </div>
-
                 <!-- Hode og nakke til å animere -->
                 <div class="giraffHodeOgNakke">
 
@@ -990,6 +1000,31 @@
                     <!-- Avslutning av hode og nakke -->
                 </div>
 
+                <!-- Snakkeboble med tekst -->
+                <div class="snakker">
+
+                    <div class="snakkebobleTrekant"></div>
+
+                    <div class="snakkeboble">
+
+                        <p class="snakkebobleTekst">
+                            Grunner til å bli i dyrehagen:
+                        </p>
+
+                        <ul>
+                            <li>Dyrene er her</li>
+                            <li>Dyrene er ikke andre steder</li>
+                            <li>Se punkt 1 og 2</li>
+                        </ul>
+
+                        <p class="snakkebobleTekst">
+                            Så, som du sikkert forstår er det ikke mye å klage over her.
+                        </p>
+
+                    </div>
+
+                </div>
+                
                 <!-- Kroppen -->
                 <div class="giraffKropp">
 
