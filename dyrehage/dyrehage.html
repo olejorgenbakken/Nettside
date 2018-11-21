@@ -9,41 +9,58 @@
 
 <body>
 
-    <iframe src="bakgrunnsmusikk.mp3" autoplay loop></iframe>
+    <iframe src="bakgrunnsmusikk.mp3" autoplay="true"></iframe>
 
     <div id="dyrehageWrapper">
         <section id="navigasjon">
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp1" name="stopp" value="stopp1">
                 <label for="stopp1"><p>Majorstuen</p></label>
             </article>
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp2" name="stopp" value="stopp2">
                 <label for="stopp2"><p>Jernbanetorget</p></label>
             </article>
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp3" name="stopp" value="stopp3">
                 <label for="stopp3"><p>Stopp 3</p></label>
             </article>
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp4" name="stopp" value="stopp4" checked>
                 <label for="stopp4"><p>Dyrehagen</p></label>
             </article>
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp5" name="stopp" value="stopp5">
                 <label for="stopp5"><p>Stopp 5</p></label>
             </article>
 
             <article class="stopp">
+              <div class="stoppKnapp"></div>
                 <input type="radio" id="stopp6" name="stopp" value="stopp6">
                 <label for="stopp6"><p>Stopp 6</p></label>
             </article>
         </section>
+
+         <!-- start stoppskilt -->
+         <div class="objektStoppskiltMain">
+           <p class="stoppskiltStorTekst">Lambertseter</p>
+           <div class="objektStoppskiltSub">
+             <p class="stoppskiltLitenTekst">
+               <strong>Retning sentrum </strong>Direction centre
+             </p>
+             </div>
+         </div>
+         <!-- slutt stoppskilt -->
 
         <!-- T-bane -->
         <div id="tbaneWrapper">

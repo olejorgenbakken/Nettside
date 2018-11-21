@@ -44,19 +44,76 @@ iframe {
 }
 .stopp p {
     margin: 0;
-    margin-top: 5px; 
+    margin-top: 5px;
     padding: 0;
     font-weight: 900;
     color: white;
     font-size: 1em;
 }
 #navigasjon .stopp input {
-    display: block;
+    display: none;
     position: relative;
     cursor: pointer;
     height: 30px;
     width: 30px;
     margin: auto;
+}
+#navigasjon .stoppKnapp {
+  position: relative;
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+  margin: auto;
+  background-color: white;
+  border: 4px solid green;
+  border-radius: 50%;
+}
+#navigasjon .stoppKnapp:hover {
+  background-color: mediumseagreen;
+}
+
+#navigasjon .stoppKnapp:active {
+  background-color: darkgreen;
+}
+
+.stoppskiltStorTekst {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+    color: white;
+    font-size: 1em;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.stoppskiltLitenTekst {
+    position: absolute;
+    top: -8px;
+    width: 100%;
+    color: rgb(40, 40, 54);
+    font-size: 0.5em;
+    text-align: center;
+}
+
+.objektStoppskiltMain {
+    width: 15%;
+    height: 5.5%;
+    background-color: rgb(40, 40, 54);
+    position: absolute;
+    top: 280px;
+    left: 460px;
+    z-index: 1;
+    border: 1px solid black;
+}
+
+.objektStoppskiltSub {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
 }
 
 /* Lianer */
@@ -243,6 +300,7 @@ iframe {
     margin: -10px;
     padding: 5px;
     display: inline-block;
+    filter: blur(3px);
 }
 .treBuskLinje {
     text-align: center;
@@ -282,9 +340,9 @@ iframe {
 .ape {
     position: absolute;
     background-color: maroon;
-    border-radius: 50%;
+    border-radius: 50px;
     width: 30px;
-    height: 30px;
+    height: 40px;
 }
 .apeOyne {
     position: relative;
@@ -334,6 +392,7 @@ iframe {
     transform: scale(.6);
     filter: blur(3px);
 }
+
 #tre2 {
     right: -20px;
     bottom: 200;
@@ -342,25 +401,25 @@ iframe {
 }
 
 #tre2:hover #apekatt1 {
-    animation: visApe1 1s ease-in-out alternate infinite;
+    animation: visApe1 2s ease-in-out alternate infinite .6s;
 }
 @keyframes visApe1 {
     from {
         top: 80px;
     }
-    
+
     to {
         top: 45px;
     }
 }
 #tre2:hover #apekatt2 {
-    animation: visApe2 1s ease-in-out alternate infinite .6s;
+    animation: visApe2 1s ease-in-out alternate infinite;
 }
 @keyframes visApe2 {
     from {
         top: 110px;
     }
-    
+
     to {
         top: 130px;
     }
@@ -502,13 +561,13 @@ iframe {
         transform: scale(1);
         top: -180px;
     }
-    
+
     50% {
         opacity: 1;
         transform: scale(2);
         top: -280px;
     }
-    
+
     100% {
         opacity: 1;
         transform: scale(1);
@@ -595,7 +654,7 @@ iframe {
     from {
         transform: rotate(-20deg);
     }
-    
+
     to {
         transform: rotate(-25deg);
     }
@@ -671,15 +730,15 @@ iframe {
     0% {
         height: 7px;
     }
-    
+
     50%; {
         height: 3px;
     }
-    
+
     75% {
         height: 2px;
     }
-    
+
     100% {
         height: 1px;
     }
@@ -740,7 +799,7 @@ iframe {
     from {
         transform: rotate(-90deg);
     }
-    
+
     to {
         transform: rotate(-70deg);
     }
@@ -769,12 +828,12 @@ iframe {
         bottom: 150;
         transform: rotate(-1000deg);
     }
-    
+
     50% {
         transform: rotate(0deg);
         bottom: 170;
     }
-    
+
     100% {
         transform: rotate(0deg);
         opacity: 1;
@@ -875,7 +934,7 @@ iframe {
     from {
         height: 10px;
     }
-    
+
     to {
         height: 50px;;
     }
@@ -918,7 +977,7 @@ iframe {
     height: 15px;
     bottom: 0;
     left: -1px;
-    border-radius: 5px 5px 2px 2px; 
+    border-radius: 5px 5px 2px 2px;
 }
 .giraffHale {
     width: 9px;
@@ -940,7 +999,7 @@ iframe {
 }
 
 #giraff1 .snakker {
-    position: absolute;    
+    position: absolute;
     opacity: 0;
     transform: scale(.7);
     top: -230px;
@@ -954,12 +1013,12 @@ iframe {
         opacity: 0;
         top: -230px;
     }
-    
+
     50% {
         opacity: 1;
         top: -240px;
     }
-    
+
     100% {
         opacity: 1;
         top: -230px;
@@ -1066,7 +1125,7 @@ iframe {
     from {
         transform: rotate(-35deg);
     }
-    
+
     to {
         transform: rotate(35deg);
     }
@@ -1075,7 +1134,6 @@ iframe {
 /* T-banen */
 #tbaneWrapper {
     position: static;
-    bottom: 0;
 }
 #tbaneWrapper * {
     position: absolute;
@@ -1171,6 +1229,6 @@ iframe {
 #skinneForgrunn {
     width: 1024px;
     height: 10px;
-    background-color: black;;
+    background-color: black;
     bottom: 0;
 }
