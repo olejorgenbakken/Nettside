@@ -90,10 +90,9 @@ a {
 #tbane {
     width: 300px;
     height: 300px;
-
     margin: auto;
     left: 0;
-    animation: tbaneAnimasjon 30s ease-out infinite;
+    animation: tbaneAnimasjon 30s ease-out forwards;
     z-index: 55;
 }
 
@@ -147,9 +146,8 @@ a {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    animation: hjulAnimasjoner 30s ease-out infinite;
+    animation: hjulAnimasjoner 30s ease-out forwards;
 }
-
 
 #skinneBakgrunn {
     width: 100%;
