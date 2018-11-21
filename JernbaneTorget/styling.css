@@ -18,12 +18,16 @@ html, body {
     position: absolute;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 
 #navigasjon {
-    
+    position: relative !important;
+    left: 0px;
     width: 900px;
     height: 7px;
-    left: 64px;
     background-color: green;
     border-radius: 100px;
     top: 20px;
@@ -32,7 +36,7 @@ html, body {
     margin: auto;
 }
 .stopp {
-   
+    position: relative;
     top: -12px;
     display: inline-block;
     width: 140px;
@@ -54,10 +58,10 @@ html, body {
     margin: auto;
 }
 #navigasjon .stopp a {
-    padding-top: ;
+    padding-top:
 }
 #navigasjon .stoppKnapp {
-  position: relative !important;
+  position: relative;
   cursor: pointer;
   height: 22px;
   width: 22px;
@@ -74,9 +78,8 @@ html, body {
   background-color: darkgreen;
 }
 
-
 #tbaneOgSkinner {
-    position: absolute;
+    
     width: 1240px;
     height: 244px;
     background-color: transparent;
@@ -86,7 +89,7 @@ html, body {
 #tbane {
     width: 300px;
     height: 300px;
-    position: relative;
+    
     margin: auto;
     left: 0;
     animation: tbaneAnimasjon 30s ease-out infinite;
@@ -110,7 +113,7 @@ html, body {
     z-index: 1;
 }
 #vogn #vinduer {
-    position: relative;
+    position: relative; 
     width: 270px;
     height: 120px;
     margin: auto;
@@ -124,14 +127,14 @@ html, body {
     border-radius: 4px;
     margin-left: 5px;
     margin-right: 5px;
-    position: relative;
+    position: relative; 
     display: inline-block;
 }
 #hjulene {
     width: 280px;
     height: 50px;
     margin: auto;
-    position: relative;
+    /*position: relative;*/
     text-align: center;
     top: 170px;
 }
