@@ -1,11 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: blue;
 }
 p, ul, a {
     font-family: 'Archivo', Arial, sans-serif;
     text-decoration: none;
+    color: white;
 }
 
 /* Lyd */
@@ -17,7 +17,7 @@ iframe {
 #dyrehageWrapper {
     position: relative;
     width: 1024px;
-    height: 720px;
+    height: 768px;
     overflow: hidden;
     background: url(assets/bakgrunn.jpg);
     background-position: center center;
@@ -43,12 +43,11 @@ iframe {
     display: inline-block;
     width: 140px;
 }
-.stopp p {
+.stopp a {
     margin: 0;
     margin-top: 5px;
     padding: 0;
     font-weight: 900;
-    color: white;
     font-size: 1em;
 }
 #navigasjon .stopp input {
@@ -58,9 +57,6 @@ iframe {
     height: 30px;
     width: 30px;
     margin: auto;
-}
-#navigasjon .stopp a {
-    padding-top:
 }
 #navigasjon .stoppKnapp {
   position: relative;
@@ -699,7 +695,7 @@ iframe {
 }
 #skillpadde1 {
     position: relative;
-    top: 370px;
+    top: 420px;
     left: 500px;
     transform: scale(.7);
 }
