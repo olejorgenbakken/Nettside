@@ -484,6 +484,7 @@ iframe {
 .snakkeboble p, ul {
     font-size: 1.23em;
     list-style: decimal;
+    color: black;
 }
 
 /* Dyrene */
