@@ -1,0 +1,203 @@
+<html>
+<head>
+    <title>Stortinget</title>
+    <meta charset="utf-8">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet"/>
+</head>
+<body>
+    <!-- start container -->
+    <div class="container">
+        
+    
+    <section id="navigasjon">
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="button" id="stopp1" name="stopp" value="stopp1">
+          <label for="stopp1"><a href="../huseby/huseby.html">Huseby</a></label>
+      </article>
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="radio" id="stopp2" name="stopp" value="stopp2">
+          <label for="stopp2"><a href="../majorstuen/majorstuen.html">Majorstuen</a></label>
+      </article>
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="radio" id="stopp3" name="stopp" value="stopp3">
+          <label for="stopp3"><a href="../stortinget/stortinget.html">Stortinget</a></label>
+      </article>
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="radio" id="stopp4" name="stopp" value="stopp4" checked>
+          <label for="stopp4"><a href="../jernbanetorget/jernbanetorget.html">Jernbanetorget</p></label>
+      </article>
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="radio" id="stopp5" name="stopp" value="stopp5">
+          <label for="stopp5"><a href="../dyrehage/dyrehage.html">Dyrehagen</a></label>
+      </article>
+
+      <article class="stopp">
+        <div class="stoppKnapp"></div>
+          <input type="radio" id="stopp6" name="stopp" value="stopp6">
+          <label for="stopp6"><a href="../lambertseter/lambertseter.html">Lambertseter</a></label>
+      </article>
+  </section>
+
+
+    <!-- slutt navigasjon --> 
+        
+           <!-- T-bane -->
+    <div id="tbaneWrapper">
+
+        <!-- T-banen og skinnene -->
+        <div id="tbaneOgSkinner">
+
+            <!-- Skinnen i bakgrunnen med treværket -->
+            <div id="skinneBakgrunn">
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+                <div class="trevaerk"></div>
+            </div>
+
+            <!-- Hele T-banen -->
+            <div id="tbane">
+
+                <!-- Vognen -->
+                <div id="vogn">
+
+                    <div id="tbaneSplit"></div>
+
+                    <!-- vinduene -->
+                    <div id="vinduer">
+                        <div class="vindu"></div>
+                        <div class="vindu"></div>
+                    </div>
+
+                    <!-- Rust -->
+                    <div class="vognRust" id="oppeTilVenstre"></div>
+                    <div class="vognRust"></div>
+                    <div class="vognRust"></div>
+
+                </div>
+
+                <!-- Hjulene på T-banen -->
+                <div id="hjulene">
+
+                    <!-- Hjulene -->
+                    <img src="images/wheel.png" class="hjul">
+                    <img src="images/wheel.png" class="hjul">
+                    <img src="images/wheel.png" class="hjul">
+                </div>
+            </div>
+
+            <!-- Skinnene i forgrunnen -->
+            <div id="SkinneForgrunn"></div>
+        </div>
+    </div>
+       
+   
+    <!-- start stoppeskilt -->
+        
+      <a>
+        <div class="objektStoppskiltMain">
+            <p class="stoppskiltStorTekst">Stortinget</p>
+            <div class="objektStoppskiltSub">
+            <p class="stoppskiltLitenTekst">
+                <strong>Retning sentrum </strong>Direction centre
+            </p>
+            </div> 
+          </div>
+          </a>
+          
+    <!-- slutt stoppeskilt -->
+
+        
+     <!-- blekksprut -->
+        <img id="blekksprut1" class="blekksprut" src="images/blekksprut.png">
+            
+      <!-- start tekstbokst -->
+        
+        <p id="stoppSkilt">Velkommen til Stortinget t-banestopp. Her har det vært en lekasje og stasjonen er oversvømt. </p>
+        
+    <!-- slutt tekstbokst -->    
+
+    <!-- krabbe -->
+        <img id="krabbe1" class="krabbe" src="images/Krabbe.png">
+          
+    <!-- dykker -->
+       <img id="dykkerKropp" class="dykker" src="images/DykkerKropp.png">
+            
+       <img id="dykkerHode" class="dykker" src="images/DykkerHode.png">
+        
+   
+    <!-- Lydfil -->
+        <iframe src="Sound/underVann.mp3" allow="autoplay" style="display:none" id="underVann"> </iframe>    
+        
+     
+    <!-- start vann container -->
+   <div id="vann">
+       
+          <!-- start bobbler -->
+        <div id="boble1" class="boble"> </div>
+        <div id="boble2" class="boble"> </div>
+        <div id="boble3" class="boble"> </div>
+        <div id="boble4" class="boble"> </div>
+        <div id="boble5" class="boble"> </div>
+        <div id="boble6" class="boble"> </div>
+        <div id="boble7" class="boble"> </div>
+        <div id="boble8" class="boble"> </div>
+        <div id="boble9" class="boble"> </div>
+    
+       
+    </div>
+       
+
+        
+    <!-- and -->
+       <img id="and1" class="And" src="images/And.png">
+  
+        
+
+      
+
+      
+    </div>
+    <!-- end container -->
+    
+
+    
+</body>
+    
+</html>
