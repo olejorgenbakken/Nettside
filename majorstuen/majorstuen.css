@@ -233,15 +233,6 @@ body{
     z-index: 3;
 }
 
-#tbane {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 200;
-    bottom: -94px;
-    transform: scale(.7);
-}
-
 #vogn {
     position: relative;
     height: 170px;
@@ -290,6 +281,16 @@ body{
     text-align: center;
 }
 
+#tbane {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 200;
+    bottom: -94px;
+    transform: scale(.7);
+    animation: tbanBeveg 3s ease forwards;
+}
+
 #hjulene .hjul {
     border-radius: 50%;
     height: 70px;
@@ -298,11 +299,26 @@ body{
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    animation: hjulRotasjon 3s ease;
+    transform: rotate(-360deg);
 }
 
-#tbane:hover .hjul {
-    transition: 2s linear;
-    transform: rotate(360deg);
+@keyframes tbanBeveg {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+@keyframes hjulRotasjon {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 #skinneBakgrunn {

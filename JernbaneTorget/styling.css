@@ -2,7 +2,7 @@ html, body {
     background-color: rgb(80,80,80);
 }
 * {
-    margin: 0 auto;  
+    margin: 0 auto;
     padding: 0;
 }
 
@@ -79,7 +79,7 @@ a {
 }
 
 #tbaneOgSkinner {
-    
+
     width: 1240px;
     height: 244px;
     background-color: transparent;
@@ -89,7 +89,7 @@ a {
 #tbane {
     width: 300px;
     height: 300px;
-    
+
     margin: auto;
     left: 0;
     animation: tbaneAnimasjon 30s ease-out infinite;
@@ -113,7 +113,7 @@ a {
     z-index: 1;
 }
 #vogn #vinduer {
-    position: relative; 
+    position: relative;
     width: 270px;
     height: 120px;
     margin: auto;
@@ -127,7 +127,7 @@ a {
     border-radius: 4px;
     margin-left: 5px;
     margin-right: 5px;
-    position: relative; 
+    position: relative;
     display: inline-block;
 }
 #hjulene {
@@ -179,8 +179,8 @@ a {
     height: 150px;
     width: 1500px;
     left: 0;
-    bottom: 0; 
-    background-color: rgb(50,50,50); 
+    bottom: 0;
+    background-color: rgb(50,50,50);
 }
 
 #plakat1 {
@@ -259,8 +259,6 @@ a {
     opacity: 1;
 }
 
-
-
 @keyframes rotteAnimasjon {
     0% {
         left: -100px;
@@ -282,8 +280,3 @@ a {
         transform: rotate(360deg);
     }
 }
-
-
-
-
-

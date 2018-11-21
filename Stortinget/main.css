@@ -16,6 +16,11 @@ background-color: #282836;
     font-size: 62.5%; /*10 px*/
 }
 
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+}
 
 .container {
     width: 1024px;
@@ -33,19 +38,19 @@ background-color: #282836;
     margin-right: auto;
     left:0;
     right:0;
-    
+
 }
 
 #vann{
     width: 1024px;
     height: 550px;
-    background-color: aqua; 
+    background-color: aqua;
     position: absolute;
     bottom: 0;
-    z-index: 1; 
+    z-index: 1;
     opacity: 0.5;
     overflow: hidden;
-    
+
 }
 
 
@@ -63,7 +68,7 @@ background-color: #282836;
     left: 300px;
     width: 330px;
     height:50px;
-    
+
 }
 
 .stoppskiltStorTekst {
@@ -132,7 +137,7 @@ background-color: #282836;
     left: 20%;
     animation-name: bobleMoves2;
     animation-delay: 6s;
-    
+
 }
 #boble3{
     bottom: -10%;
@@ -206,7 +211,7 @@ background-color: #282836;
 
 #dykkerKropp{
     width: 250px;
-    bottom: 15%; 
+    bottom: 15%;
     right: 20%;
     animation-name: dykkerKroppMoves;
     animation-delay: 1s;
@@ -238,398 +243,398 @@ background-color: #282836;
 }
 
 a:hover + .blekksprut {
-    left: 30%; 
-    transform: rotate(360deg);  
+    left: 30%;
+    transform: rotate(360deg);
     }
 
-    
+
 @keyframes bobleMoves1 {
-    
+
     0%{
     bottom: -10%;
     left: 10%;
     }
     25%{
     bottom: 30%;
-    left: 20%     
+    left: 20%
     }
-    
+
     50%{
     bottom: 50%;
     left: 10%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 20%;    
+    left: 20%;
     }
     100%{
     bottom: 100%;
-    left: 10%;    
-    
+    left: 10%;
+
     }
 
-    
+
 }
 
 @keyframes bobleMoves2 {
-    
+
     0%{
     bottom: -10%;
     left: 20%;
     }
     25%{
     bottom: 30%;
-    left: 25%     
+    left: 25%
     }
-    
+
     50%{
     bottom: 50%;
     left: 20%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 25%;    
+    left: 25%;
     }
     100%{
     bottom: 100%;
-    left: 20%;    
-    
+    left: 20%;
+
     }
 
-    
+
 }
 
 @keyframes bobleMoves3 {
-    
+
     0%{
     bottom: -10%;
     left: 30%;
     }
     25%{
     bottom: 30%;
-    left: 40%     
+    left: 40%
     }
-    
+
     50%{
     bottom: 50%;
     left: 30%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 40%;    
+    left: 40%;
     }
     100%{
     bottom: 100%;
-    left: 30%;    
-    
+    left: 30%;
+
     }
 
-    
+
 }
 
 @keyframes bobleMoves4 {
-    
+
     0%{
     bottom: -10%;
     left: 40%;
     }
     25%{
     bottom: 30%;
-    left: 45%     
+    left: 45%
     }
-    
+
     50%{
     bottom: 50%;
     left: 40%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 45%;    
+    left: 45%;
     }
     100%{
     bottom: 100%;
-    left: 40%;    
-    
+    left: 40%;
+
     }
 }
 
-    
+
 @keyframes bobleMoves5 {
-    
+
     0%{
     bottom: -10%;
     left: 50%;
     }
     25%{
     bottom: 30%;
-    left: 60%     
+    left: 60%
     }
-    
+
     50%{
     bottom: 50%;
     left: 50%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 60%;    
+    left: 60%;
     }
     100%{
     bottom: 100%;
-    left: 50%;    
-    
+    left: 50%;
+
     }
 }
-    
+
  @keyframes bobleMoves6 {
-    
+
     0%{
     bottom: -10%;
     left: 60%;
     }
     25%{
     bottom: 30%;
-    left: 55%     
+    left: 55%
     }
-    
+
     50%{
     bottom: 50%;
     left: 60%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 55%;    
+    left: 55%;
     }
     100%{
     bottom: 100%;
-    left: 60%;    
-    
-    }    
-    
+    left: 60%;
+
+    }
+
     }
 
  @keyframes bobleMoves7 {
-    
+
     0%{
     bottom: -10%;
     left: 70%;
     }
     25%{
     bottom: 30%;
-    left: 80%     
+    left: 80%
     }
-    
+
     50%{
     bottom: 50%;
     left: 70%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 70%;    
+    left: 70%;
     }
     100%{
     bottom: 100%;
-    left: 80%;    
-    
+    left: 80%;
+
     }
-    
+
 }
 
  @keyframes bobleMoves8 {
-    
+
     0%{
     bottom: -10%;
     left: 80%;
     }
     25%{
     bottom: 30%;
-    left: 75%     
+    left: 75%
     }
-    
+
     50%{
     bottom: 50%;
     left: 80%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 75%;    
+    left: 75%;
     }
     100%{
     bottom: 100%;
-    left: 80%;    
-    
+    left: 80%;
+
     }
-    
+
 }
 
  @keyframes bobleMoves9 {
-    
+
     0%{
     bottom: -10%;
     left: 90%;
     }
     25%{
     bottom: 30%;
-    left: 100%     
+    left: 100%
     }
-    
+
     50%{
     bottom: 50%;
     left: 90%;
     }
-    
+
     75%{
     bottom: 75%;
-    left: 100%;    
+    left: 100%;
     }
     100%{
     bottom: 100%;
-    left: 90%;    
-    
+    left: 90%;
+
     }
-    
+
 }
 
 @keyframes andMoves {
     0%{
-    left: 100%;    
-    transform: rotate(-15deg); 
+    left: 100%;
+    transform: rotate(-15deg);
     }
     5%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     10%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     15%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     20%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     25%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     30%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     35%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     40%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     45%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     50%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     55%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     60%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     65%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     70%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     75%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     80%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     85%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     90%{
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
     95%{
-    transform: rotate(15deg);     
+    transform: rotate(15deg);
     }
     100%{
     left: 0%;
-    transform: rotate(-15deg);     
+    transform: rotate(-15deg);
     }
 }
 
 @keyframes krabbeMoves{
-    
+
     0%{
     bottom: -0%;
-    right: -10%;    
+    right: -10%;
     transform: rotate(-10deg);
     }
-    5%{    
-    transform: rotate(10deg);     
+    5%{
+    transform: rotate(10deg);
     }
     10%{
-    transform: rotate(-10deg);     
+    transform: rotate(-10deg);
     }
     15%{
-    transform: rotate(10deg);     
+    transform: rotate(10deg);
     }
     20%{
-    transform: rotate(-10deg);     
+    transform: rotate(-10deg);
     }
-    25%{  
-    transform: rotate(10deg);     
+    25%{
+    transform: rotate(10deg);
     }
     30%{
-    transform: rotate(-10deg);     
+    transform: rotate(-10deg);
     }
     35%{
-    transform: rotate(10deg);     
+    transform: rotate(10deg);
     }
-    40%{   
-    bottom: 20%; 
+    40%{
+    bottom: 20%;
     right: 40%;
     transform: rotate(0deg);
-    } 
-          
+    }
+
     45%{
-    bottom: 20%; 
+    bottom: 20%;
     right: 40%;
-    transform: rotate(10deg);    
-        
+    transform: rotate(10deg);
+
     }
     50%{
     transform: scaleX(-1);
-    bottom: 20%; 
+    bottom: 20%;
     right: 40%;
     }
     55%{
     transform: rotate(10deg)scaleX(-1) ;
     }
     60%{
-    transform: rotate(-10deg)scaleX(-1) ;    
+    transform: rotate(-10deg)scaleX(-1) ;
     }
     65%{
-    transform: rotate(10deg)scaleX(-1);  
+    transform: rotate(10deg)scaleX(-1);
     }
     70%{
-    transform: rotate(-10deg) scaleX(-1);    
+    transform: rotate(-10deg) scaleX(-1);
     }
     75%{
-    transform: rotate(10deg) scaleX(-1); 
+    transform: rotate(10deg) scaleX(-1);
     }
     80%{
-    transform: rotate(-10deg) scaleX(-1);    
+    transform: rotate(-10deg) scaleX(-1);
     }
     85%{
-    transform: rotate(10deg) scaleX(-1); 
+    transform: rotate(10deg) scaleX(-1);
     }
     90%{
     transform: rotate(-10deg) scaleX(-1);
@@ -639,83 +644,83 @@ a:hover + .blekksprut {
     }
     100%{
     transform: rotate(-10deg) scaleX(-1);
-    right: 120%;      
-    } 
+    right: 120%;
+    }
 }
 
 @keyframes dykkerKroppMoves{
     0%{
-    bottom: 15%; 
-    right: -20%;    
+    bottom: 15%;
+    right: -20%;
     }
     50%{
-    bottom: 15%; 
-    right: 20%;     
+    bottom: 15%;
+    right: 20%;
     }
-    
+
     100%{
-    bottom: 15%; 
-    right: 20%;   
+    bottom: 15%;
+    right: 20%;
     }
-    
+
 }
 
 @keyframes dykkerHodeMoves{
     0%{
     bottom: 43%;
-    right: -12%;    
+    right: -12%;
     }
     50%{
     bottom: 43%;
-    right: 28%; 
-    transform: rotate(10deg)    
-   
+    right: 28%;
+    transform: rotate(10deg)
+
     }
     60%{
-    transform: rotate(-10deg)    
+    transform: rotate(-10deg)
     }
     65%{
-    transform: rotate(10deg)    
+    transform: rotate(10deg)
     }
     70%{
-    transform: rotate(-10deg)    
+    transform: rotate(-10deg)
     }
     75%{
-    transform: rotate(10deg)    
+    transform: rotate(10deg)
     }
     80%{
-    transform: rotate(-10deg)    
+    transform: rotate(-10deg)
     }
     85%{
-    transform: rotate(10deg)    
+    transform: rotate(10deg)
     }
     90%{
-    transform: rotate(-10deg)    
+    transform: rotate(-10deg)
     }
     95%{
-    transform: rotate(10deg)    
+    transform: rotate(10deg)
     }
     100%{
     bottom: 43%;
-    right: 28%;    
+    right: 28%;
     }
 }
-    
-/* t-banevogn */ 
+
+/* t-banevogn */
 
 #tbaneWrapper {
     position: absolute;
     bottom: 0;
-    
-   
-    
+
+
+
 }
 
 #tbaneWrapper * {
     position: absolute;
     opacity: 1;
-    
-   
+
+
 
 }
 
@@ -724,22 +729,13 @@ a:hover + .blekksprut {
     z-index: 3;
 }
 
-#tbane {
-    width: 300px;
-    height: 300px;
-    position: absolute;
-    left: 200;
-    bottom: -90px;
-    transform: scale(.7);
-}
-
 #vogn {
     height: 170px;
     width: 300px;
     padding-top: 20px;
     background-color: rgb(200, 200, 200);
     border-radius: 10px;
-   
+
 }
 
 #tbaneSplit {
@@ -780,19 +776,44 @@ a:hover + .blekksprut {
     top: 170;
 }
 
+#tbane {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 200;
+    bottom: -94px;
+    transform: scale(.7);
+    animation: tbanBeveg 3s ease forwards;
+}
+
 #hjulene .hjul {
     border-radius: 50%;
     height: 70px;
     width: 70px;
-    position: relative;
+    position:relative;
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
+    animation: hjulRotasjon 3s ease;
+    transform: rotate(-360deg);
 }
 
-#tbane:hover  .hjul {
-    transition: 2s linear;
-    transform: rotate(360deg);
+@keyframes tbanBeveg {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+@keyframes hjulRotasjon {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 #skinneBakgrunn {
@@ -821,7 +842,7 @@ a:hover + .blekksprut {
     bottom: 0;
 }
 
-    
+
 
 /* Navigasjonen */
 #navigasjon {
