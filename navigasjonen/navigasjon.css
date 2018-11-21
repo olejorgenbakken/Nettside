@@ -1,4 +1,9 @@
 /* Navigasjonen */
+a {
+  text-decoration: none;
+  color: white;
+}
+
 #navigasjon {
     position: absolute;
     width: 900px;
