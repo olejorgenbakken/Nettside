@@ -3,7 +3,8 @@ a {
   text-decoration: none;
   color: white;
   font-family: 'Archivo', sans-serif;
-  font-size: 20px;
+  font-size: 1em;
+  font-weight: 900;
 }
 
 #navigasjon {
