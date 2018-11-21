@@ -3,8 +3,9 @@ body {
     padding: 0;
     background-color: blue;
 }
-p, ul {
+p, ul, a {
     font-family: 'Archivo', Arial, sans-serif;
+    text-decoration: none;
 }
 
 /* Lyd */
@@ -18,7 +19,7 @@ iframe {
     width: 1024px;
     height: 720px;
     overflow: hidden;
-    background: url(bakgrunn.jpg);
+    background: url(assets/bakgrunn.jpg);
     background-position: center center;
     margin: auto;
 }
@@ -57,6 +58,9 @@ iframe {
     height: 30px;
     width: 30px;
     margin: auto;
+}
+#navigasjon .stopp a {
+    padding-top:
 }
 #navigasjon .stoppKnapp {
   position: relative;
