@@ -31,6 +31,7 @@ html, body {
     left: 0;
     animation: tbaneAnimasjon 30s ease-out infinite;
 }
+
 #vogn {
     height: 170px;
     width: 300px;
@@ -118,50 +119,27 @@ html, body {
     background-color: rgb(50,50,50); 
 }
 
-#trappRamme {
-    height: 400px;
-    width: 600px;
-    background-color: black;
-    bottom: 150px;
-    left: 350px;
-    z-index: 0;
+#plakat1 {
+    margin: 10px;
+    border: 10px solid #994d1f;
+    height: 200px;
+    width: 300px;
+    bottom: 220px;
+    left: 90px;
 }
-#trinn1 {
-    height: 20px;
-    width: 550px;
-    background-color: gray;
-    left: 25px;
-    outline: 1px solid blue;
-    bottom: 0;
-}
-#trinn2 {
-    height: 20px;
-    width: 550px;
-    background-color: gray;
-    left: 25px;
-    outline: 1px solid blue;
-    bottom: 20px;
-}
-#trinn3 {
-    height: 20px;
-    width: 550px;
-    background-color: gray;
-    left: 25px;
-    outline: 1px solid blue;
-    bottom: 40px;
-}
-#trinn4 {
-    height: 20px;
-    width: 550px;
-    background-color: gray;
-    left: 25px;
-    outline: 1px solid blue;
-    bottom: 60px;
+
+#plakat2 {
+    margin: 10px;
+    border: 10px solid #994d1f;
+    height: 200px;
+    width: 300px;
+    bottom: 220px;
+    left: 900px;
 }
 
 #gasmaske {
     height: 30px;
-    left: 1030px;
+    left: 900px;
     bottom: 224px;
 }
 
@@ -178,7 +156,7 @@ html, body {
 }
 #box {
     height: 80px;
-    left: 980px;
+    left: 900px;
     bottom: 149px;
 }
 #rotte {
@@ -189,9 +167,35 @@ html, body {
 }
 #gasLampe {
     height: 70px;
-    left: 980px;
+    left: 930px;
     bottom: 223px;
 }
+#tbaneskilt {
+    width: 150px;
+    left: 700px;
+    bottom: 350px;
+}
+#infoboks {
+    opacity: 0;
+    transition: .3s;
+    margin: 10px;
+    border: 5px solid #701818;
+    height: 250px;
+    width: 250px;
+    background-color: rgb(255,255,255);
+    bottom: 300px;
+}
+.tekst {
+    opacity: 0;
+    transition: .3s;
+    font-family: fantasy;
+    font-weight: 100;
+}
+#tbaneskilt:hover + #infoboks, .tekst {
+    opacity: 1;
+}
+
+
 
 @keyframes rotteAnimasjon {
     0% {
@@ -214,8 +218,6 @@ html, body {
         transform: rotate(360deg);
     }
 }
-
-
 
 
 
