@@ -6,6 +6,7 @@ h1, h2, a {
   font-family: 'Archivo', 'Arial', sans-serif;
   margin: 0;
   text-decoration: none;
+  color: white;
 }
 
 h1 {
@@ -22,8 +23,9 @@ h2 {
   height: 768px;
   margin:auto;
   overflow: hidden;
+  background-image: url(bakgrunn.jpg);
+  background-position: center top;
 }
-
 #storTekst {
   width: 400px;
   margin: auto;
@@ -31,15 +33,20 @@ h2 {
   position: relative;
   top: 140px;
 }
-
 #storTekst h1 {
   text-transform: uppercase;
   margin-top: 10px;
   font-weight: 600;
 }
-
 #storTekst h2 {
   font-weight: 400;
+}
+
+#bakgrunnselement img {
+  width: 100px;
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
 }
 
 /* Navigasjonen */
@@ -66,7 +73,6 @@ h2 {
     margin-top: 5px;
     padding: 0;
     font-weight: 900;
-    color: black;
     font-size: 1em;
 }
 #navigasjon .stopp input {
