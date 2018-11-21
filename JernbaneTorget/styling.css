@@ -37,6 +37,7 @@ html, body {
     padding-top: 20px;
     background-color: rgb(200, 200, 200);
     border-radius: 10px;
+    z-index: 5;
 }
 #tbaneSplit {
     height: 80px;
@@ -108,7 +109,6 @@ html, body {
     bottom: 0;
 }
 
-
 #platform {
     position: absolute !important;
     height: 150px;
@@ -118,12 +118,88 @@ html, body {
     background-color: rgb(50,50,50); 
 }
 
-#fyr {
-    height: 150px;
-    left: 300px;
-    bottom: 137px;
+#trappRamme {
+    height: 400px;
+    width: 600px;
+    background-color: black;
+    bottom: 150px;
+    left: 350px;
+    z-index: 0;
+}
+#trinn1 {
+    height: 20px;
+    width: 550px;
+    background-color: gray;
+    left: 25px;
+    outline: 1px solid blue;
+    bottom: 0;
+}
+#trinn2 {
+    height: 20px;
+    width: 550px;
+    background-color: gray;
+    left: 25px;
+    outline: 1px solid blue;
+    bottom: 20px;
+}
+#trinn3 {
+    height: 20px;
+    width: 550px;
+    background-color: gray;
+    left: 25px;
+    outline: 1px solid blue;
+    bottom: 40px;
+}
+#trinn4 {
+    height: 20px;
+    width: 550px;
+    background-color: gray;
+    left: 25px;
+    outline: 1px solid blue;
+    bottom: 60px;
 }
 
+#gasmaske {
+    height: 30px;
+    left: 1030px;
+    bottom: 224px;
+}
+
+#fyr {
+    height: 150px;
+    left: 250px;
+    bottom: 137px;
+    z-index: 1;
+}
+#beboer {
+    height: 150px;
+    left: 210px;
+    bottom: 149px;
+}
+#box {
+    height: 80px;
+    left: 980px;
+    bottom: 149px;
+}
+#rotte {
+    height: 30px;
+    bottom: 145px;
+    left: -100px;
+    animation: rotteAnimasjon 10s 3s linear infinite;
+}
+#gasLampe {
+    height: 70px;
+    left: 980px;
+    bottom: 223px;
+}
+
+@keyframes rotteAnimasjon {
+    0% {
+        left: -100px;
+    } 100% {
+        left: 1500px;
+    }
+}
 @keyframes tbaneAnimasjon {
     0%, 100% {
         left: -1000px;
