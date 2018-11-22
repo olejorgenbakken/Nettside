@@ -8,9 +8,9 @@ html, body {
 
 #wrapper {
     position: relative;
-    width: 1240px;
+    width: 1024px;
     height: 768px;
-    background-color: rgb(0,100,100);
+    background-image: url(imagesJernbaneTorget/metrowall.jpg);
     overflow: hidden;
 }
 
@@ -20,7 +20,7 @@ html, body {
 
 a {
   text-decoration: none;
-  color: white;
+  color: darkslategray;
   font-family: "Archivo", "Arial", sans-serif;
 }
 
@@ -91,7 +91,6 @@ a {
     width: 300px;
     height: 300px;
     margin: auto;
-    left: 0;
     animation: tbaneAnimasjon 30s ease-out forwards;
     z-index: 55;
 }
@@ -146,7 +145,7 @@ a {
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    animation: hjulAnimasjoner 30s ease-out forwards;
+    animation: hjulAnimasjoner 30s 2s ease-out;
 }
 
 #skinneBakgrunn {
@@ -169,7 +168,7 @@ a {
 #skinneForgrunn {
     width: 100%;
     height: 30px;
-    background-color: black;;
+    background-color: black;
     bottom: 0;
 }
 
@@ -183,21 +182,23 @@ a {
 }
 
 #plakat1 {
-    margin: 10px;
-    border: 10px solid #994d1f;
+    margin: 1px;
+    border: 1px solid #994d1f;
     height: 200px;
     width: 300px;
-    bottom: 220px;
+    bottom: 300px;
     left: 90px;
+    transform: rotate(90deg);
 }
 
 #plakat2 {
-    margin: 10px;
-    border: 10px solid #994d1f;
+    margin: 1px;
+    border: 1px solid #994d1f;
     height: 200px;
     width: 300px;
-    bottom: 220px;
-    left: 900px;
+    bottom: 300px;
+    left: 700px;
+    transform: rotate(90deg);
 }
 
 #gasmaske {
@@ -217,11 +218,48 @@ a {
     left: 210px;
     bottom: 149px;
 }
+#beboer2 {
+    height: 150px;
+    left: 350px;
+    bottom: 139px;
+    transform: rotateY(180deg);
+}
 #box {
     height: 80px;
     left: 900px;
     bottom: 149px;
 }
+
+
+
+.bioboks {
+    position: relative;
+    opacity: 0;
+    transition: .3s;
+    border: 2px solid #994d1f;
+    height: 150px;
+    width: 100px;
+    bottom: 150px;
+    background-color: darkgray;
+}
+.bio {
+    opacity: 0;
+    transition: .3s;
+}
+#bio1 {
+    left: 80px;
+}
+#bio2 {
+    left: 420px;
+}
+
+#beboer:hover + #bio1, .bio {
+    opacity: 1;
+}
+#beboer2:hover + #bio2, .bio {
+    opacity: 1;
+}
+
 #rotte {
     height: 30px;
     bottom: 145px;
@@ -235,14 +273,14 @@ a {
 }
 #tbaneskilt {
     width: 150px;
-    left: 700px;
+    left: 500px;
     bottom: 350px;
 }
 #infoboks {
     opacity: 0;
     transition: .3s;
     margin: 10px;
-    border: 5px solid #701818;
+    border: 3px solid #701818;
     height: 250px;
     width: 250px;
     background-color: rgb(255,255,255);
@@ -253,6 +291,7 @@ a {
     transition: .3s;
     font-family: fantasy;
     font-weight: 100;
+    left: 2px;
 }
 #tbaneskilt:hover + #infoboks, .tekst {
     opacity: 1;
@@ -266,16 +305,16 @@ a {
     }
 }
 @keyframes tbaneAnimasjon {
-    0%, 100% {
+    from {
         left: -1000px;
-    } 50% {
-        left: 1000px;
+    } to {
+        left: 600px;
     }
 }
 @keyframes hjulAnimasjoner {
-    0%, 100% {
+    to {
         transform: rotate(-360deg);
-    } 50% {
+    } 100% {
         transform: rotate(360deg);
     }
 }
