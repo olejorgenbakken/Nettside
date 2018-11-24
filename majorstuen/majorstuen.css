@@ -1,0 +1,403 @@
+
+
+html {
+    font-family:"Archivo", sans-serif;
+}
+
+iframe {
+  display: none;
+}
+
+body{
+            margin: 0 auto;
+            padding: 0;
+        }
+        #anim-container{
+            width: 1024px;
+            height:768px;
+            background-color: rgb(40,40, 54);
+            margin: auto;
+            position: relative;
+            overflow: hidden;
+            top: -10px;
+            background-size: cover;
+            background-image:url(images/tunnelbg.jpeg);  /*vurder */
+        }
+        #anim-container *{
+            position: absolute;
+        }
+        /** teksboks bakgrunn **/
+
+        #txtbox2{
+            width: 300px;
+            height: 273px;
+            background-color: rgb(50, 50, 50);
+            top:75px;
+            left: 30px;
+            opacity:0.1;
+
+        }
+        #gjenferdskygge1{
+            height:100px;
+            top:500px;
+            opacity:0.4;
+            left:350px;
+        }
+        #gjenferd1{
+            height:200px;
+            top:100px;
+            right:25px;
+            opacity:0.3;
+        }
+        #gjenferd2{
+            height:200px;
+            top:400px;
+            right:25px;
+            opacity:0.3;
+        }
+        #gjenferd3{
+            height:100px;
+            top:485px;
+            left:655px;
+            opacity:0.5;
+        }
+        #ghostbg1{
+            top: 30px;
+            right: -60px;
+            opacity: 0.09;
+            transition-property: all;
+            transition-duration: 4s;
+            transition-timing-function: linear;
+            transition-delay: 0s;
+        }
+        #anim-container:hover #ghostbg1{
+            right: 1000px;
+            opacity: 0.1;
+        }
+        .ghostbg{
+            position: absolute;
+            width: 1000px;
+        }
+        #anim-container:hover #txtbox2{
+            opacity:1;
+            transition-property:all;
+            transition-duration:2s;
+            transition-timing-function:linear;
+            transition-delay:0s;
+        }
+    /** Tekstboks */
+        h3{
+            width:300px;
+            height:600x;
+            vertical-align: bottom;
+            background-color:40,40,54;
+            margin:0;
+            display:table-cell;
+            color:gray;
+            top:0;
+
+        }
+        .ghost{
+            height:150px;
+            bottom:0;
+        }
+        #anim-container:hover #ghost1{
+            left:200px;
+            opacity:50%;
+        }
+        #anim-container:hover #ghost2{
+        right:250px;
+        }
+        #ghost1{
+            left:300px;
+            transition-property:all;
+            transition-duration:2s;
+            transition-timing-function:linear;
+            transition-delay:0s;
+            bottom:120px;
+        }
+        #ghost2{
+            right:100px;
+            transition-property:all;
+            transition-duration:2s;
+            transition-timing-function:linear;
+            transition-delay:0s;
+            bottom:120px;
+        }
+        #skiltStang{
+            background-color:rgb(37,38,38);
+            height:255px;
+            width:14px;
+            left:115px;
+            bottom:0;
+        }
+        .flaggermuser{
+            height:100px;
+        }
+        #flaggermus{
+            top:50px;
+            right:135px;
+            opacity:0.7;
+        /* evt box shadow?? */
+        }
+        #flaggermus2
+        {
+            bottom:20px;
+            right:210px;
+            opacity:0.7;
+
+        }
+/* Skilt starter her */
+
+*,
+*::after,
+*::before
+{
+    margin: 0 auto;
+    padding: 0;
+}
+.html {
+    font-size: 62.5%; /*10 px*/
+}
+.stoppskiltStorTekst {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-family: 'Archivo', sans-serif;
+    left:30px;
+    top:5px;
+}
+.stoppskiltLitenTekst {
+    color: rgb(40, 40, 54);
+    font-size: 0.45em;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+    width:150px;
+    right:55px;
+    bottom:8px;
+}
+.stoppskiltMiniTekst {
+    color: rgb(40, 40, 54);
+    font-size:0.45em;
+    text-align:center;
+    font-family:'Archivo', sans-serif;
+    width:150px;
+    left:35px;
+    bottom:-8px;
+}
+.container {
+    width: 1024px;
+    height: 768px;
+    background-color: #a62323;
+    position: relative;
+}
+.objektStoppskiltMain {
+    bottom: 256px;
+    left: 40%;
+    width: 15%;
+    height: 5%;
+    background-color: rgb(40, 40, 54);
+    position: absolute;
+    z-index: 3;
+    left:50px;
+}
+.objektStoppskiltSub {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    left:0;
+}
+
+
+/* skilt slutt */
+/*tbane slutt*/
+
+
+
+/* Navigasjonen */
+#navigasjon {
+    position: relative;
+    width: 900px;
+    height: 7px;
+    background-color: green;
+    border-radius: 100px;
+    top: 20px;
+    z-index: 6;
+    text-align: center;
+    margin: auto;
+}
+.stopp {
+    position: relative;
+    top: -12px;
+    display: inline-block;
+    width: 140px;
+}
+.stopp p {
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    font-weight: 900;
+    color: white;
+    font-size: 1em;
+}
+#navigasjon .stopp input {
+    display: none;
+    position: relative;
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Archivo', sans-serif;
+}
+#navigasjon .stoppKnapp {
+  position: relative;
+  cursor: pointer;
+  height: 22px;
+  width: 22px;
+  margin: auto;
+  background-color: white;
+  border: 4px solid green;
+  border-radius: 50%;
+}
+#navigasjon .stoppKnapp:hover {
+  background-color: mediumseagreen;
+}
+
+#navigasjon .stoppKnapp:active {
+  background-color: darkgreen;
+}
+
+#tbaneWrapper {
+    position: static;
+    bottom: 0;
+}
+
+#tbaneWrapper * {
+    position: absolute;
+}
+
+
+#tbaneOgSkinner {
+    bottom: 0;
+    z-index: 3;
+}
+
+#tbane {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -500px;
+    bottom: -94px;
+    transform: scale(.7);
+    animation: tbanBeveg 3s ease-in-out forwards;
+}
+
+#vogn {
+    height: 170px;
+    width: 300px;
+    padding-top: 20px;
+    background-color: rgb(200, 200, 200);
+    border-radius: 10px;
+}
+
+#tbaneSplit {
+    height: 80px;
+    width: 100%;
+    background-color: slategrey;
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+}
+
+#vogn #vinduer {
+    position: relative;
+    width: 270px;
+    height: 130px;
+    margin: auto;
+    text-align: center;
+    z-index: 2;
+}
+
+#vogn .vindu {
+    height: 100%;
+    width: 120px;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+}
+
+#hjulene {
+    width: 280px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+    bottom: -160px;
+}
+
+#hjulene .hjul {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    animation: hjulRotasjon 3s linear forwards;
+}
+
+#skinneBakgrunn {
+    width: 1024px;
+    height: 20px;
+    background-color: darkslategrey;
+    bottom: 0;
+    text-align: center;
+}
+
+#skinneBakgrunn .trevaerk {
+    width: 11px;
+    height: 25px;
+    background-color: sandybrown;
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 3px;
+}
+
+#SkinneForgrunn {
+    width: 1024px;
+    height: 10px;
+    background-color: black;
+    bottom: 0;
+}
+
+@keyframes tbanBeveg {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+@keyframes hjulRotasjon {
+    0% {
+        transform: rotate(-360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
